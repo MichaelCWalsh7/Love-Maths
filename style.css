@@ -144,6 +144,7 @@ body {
 .btn--red {
     border-color: red;
     color: red;
+    margin-top: 50px;
 }
 
 .btn--red:active,
@@ -251,3 +252,38 @@ body {
     }
 
 }
+
+@media (min-width: 415px) and  (max-width: 475px) {
+    .btn--big {
+        margin: 20px 10px;
+    }
+
+    .question-area {
+        padding: 10px 0;
+    }
+
+    .game-area {
+        height: 70vh;
+    }
+
+    .controls-area {
+        width: 75%;
+        margin: 10px auto;
+    }
+}
+
+@media (min-width: 320px) and  (max-width: 368px) {
+    .btn--red {
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 415px) and  (max-width: 940px) {
+    #correctAnswer  {
+        margin-top: 115px;
+        
+    }
+
+    
+}
+
